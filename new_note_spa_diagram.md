@@ -11,7 +11,6 @@ sequenceDiagram
     Note right of browser: The function adds a note to the page using the DOM API and redraws the notes.
     Note right of browser: The function also sends a POST request to the server to save the note to the server's memory. 
     
-    browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
-     with the form data (the content and the timestamp)
+    browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa with the form data (the content and the timestamp)
 
 ```
